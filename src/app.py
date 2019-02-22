@@ -5,7 +5,7 @@ __author__ = 'jslvtr'
 
 
 app = Flask(__name__)
-app.config.from_object('config')
+app.config.from_object('src.config')
 app.secret_key = "123"
 
 
